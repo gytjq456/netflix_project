@@ -1,0 +1,195 @@
+@media screen and (max-width:1500px) {
+	.moviesContainer .schForm {
+		width: 350px;
+	}
+
+	.moviesContainer {
+		.movieList {
+			>ul {
+				>li {
+					.title {
+						font-size: 2rem;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width:1300px) {
+	.moviesContainer {
+		>.flexDiv {
+			flex-direction: column;
+
+		}
+
+		.schForm {
+			width: 100%;
+		}
+	}
+}
+
+@media screen and (max-width:1200px) {
+
+	html,
+	body {
+		font-size: 56.25%;
+	}
+
+
+	.mainVisual {
+		.info {
+			max-width: 100%;
+		}
+
+		.txtBox {
+			h1 {
+				font-size: 5rem;
+			}
+		}
+
+		.txtBox {
+			padding-bottom: 30px;
+		}
+	}
+
+	.inner {
+		padding: 0 30px;
+	}
+
+	.movieDetail {
+		.info {
+			margin-top: 0;
+		}
+
+		.movieTitle {
+			h2 {
+				font-size: 6rem;
+			}
+		}
+
+		.related {
+			ul {
+				grid-template-columns: repeat(2, 1fr);
+			}
+		}
+	}
+
+	.inner1200 {
+		padding: 0 20px;
+	}
+
+	.moviesContainer {
+		.movieList {
+			>ul {
+				>li {
+					.info {
+						>div {
+							&:not(:last-child) {
+								margin-bottom: 10px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+}
+
+@media screen and (max-width:767px) {
+	.mainVisual {
+		.txtBox {
+			h1 {
+				font-size: 4rem;
+			}
+		}
+	}
+
+	.mainContents {
+		h1 {
+			font-size: 2.5rem;
+		}
+	}
+
+	.movieDetail {
+		.movieTitle {
+			h2 {
+				font-size: 5rem;
+			}
+		}
+	}
+
+	.moviesContainer {
+		.movieList {
+			>ul {
+				grid-template-columns: repeat(2, 1fr);
+			}
+		}
+	}
+}
+
+@media screen and (max-width:640px) {
+	.mainVisual {
+		.txtBox {
+			h1 {
+				font-size: 3rem;
+			}
+		}
+	}
+
+	.movieDetail {
+		.movieTitle {
+			h2 {
+				font-size: 4rem;
+			}
+		}
+	}
+
+	.moviesContainer {
+		.paging {
+			.pagination {
+				gap: 5px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width:480px) {
+	.mainVisual {
+		.txtBox {
+			h1 {
+				font-size: 2.6rem;
+			}
+		}
+	}
+
+	.movieDetail {
+		.movieTitle {
+			h2 {
+				font-size: 3.6rem;
+			}
+		}
+	}
+
+	.movieDetail {
+
+		.related {
+			ul {
+				grid-template-columns: repeat(1, 1fr);
+
+
+			}
+		}
+	}
+
+	.moviesContainer {
+		.movieList {
+			>ul {
+				grid-template-columns: repeat(1, 1fr);
+
+
+			}
+		}
+	}
+}
